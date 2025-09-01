@@ -1,2 +1,0 @@
-# Chat_application
-kwuogilfkjwb
