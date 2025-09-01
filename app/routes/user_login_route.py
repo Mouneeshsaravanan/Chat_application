@@ -36,16 +36,4 @@ async def check_user(email: str, password: str, db: AsyncSession = Depends(get_d
 
 
 
-# Add custom payload
-# payload = {
-#     "sub": "123",                            # subject (user ID)
-#     "username": "hari_krishna",             # custom field
-#     "role": "admin",                        # custom field
-#     "exp": datetime.utcnow() + timedelta(minutes=30)  # expiration
-# }
-
-# # Encode JWT
-# token = jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)
-
-# print(token)
 
